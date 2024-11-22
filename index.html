@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Artist Website</title>
-    <link rel="stylesheet" href="lve.css" />
+    <link rel="stylesheet" href="months/lve.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,37 +15,286 @@
       href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
       rel="stylesheet"
     />
+    <style>
+      @media screen and (max-width: 1240px) {
+        .divbackground {
+          width: 1240px;
+          height: 608px;
+          position: absolute;
+          background-attachment: fixed;
+        }
+        .UA {
+          margin-left: 53%;
+        }
+        .svg {
+          margin-left: 55%;
+          color: white;
+          margin-top: -6%;
+          text-decoration: none;
+        }
+        .hellodown {
+          background-image: url(https://static.wixstatic.com/media/d5f99a33f0044179af43cb9685308ce1.jpg/v1/fill/w_1576,h_820,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d5f99a33f0044179af43cb9685308ce1.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 1240px;
+          height: 750px;
+        }
+        .hello {
+          background-image: url(https://static.wixstatic.com/media/6083e67e999345c5aa1aafc7db76022b.jpg/v1/fill/w_1576,h_596,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6083e67e999345c5aa1aafc7db76022b.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 1240px;
+          height: 750px;
+        }
+      }
+      @media screen and (max-width: 992px) {
+        .divbackground {
+          width: 992px;
+          height: 608px;
+          position: absolute;
+          background-attachment: fixed;
+        }
+        .UA {
+          margin-left: 47%;
+        }
+        .svg {
+          margin-left: 50%;
+          color: white;
+          margin-top: -8%;
+          text-decoration: none;
+        }
+        .hellodown {
+          background-image: url(https://static.wixstatic.com/media/d5f99a33f0044179af43cb9685308ce1.jpg/v1/fill/w_1576,h_820,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d5f99a33f0044179af43cb9685308ce1.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 992px;
+          height: 750px;
+        }
+        .hello {
+          background-image: url(https://static.wixstatic.com/media/6083e67e999345c5aa1aafc7db76022b.jpg/v1/fill/w_1576,h_596,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6083e67e999345c5aa1aafc7db76022b.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 992px;
+          height: 750px;
+        }
+        #svg {
+          margin-right: 55%;
+          margin-left: -10%;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .p h2 {
+          margin-left: 28%;
+        }
+        .divbackground {
+          width: 768px;
+          height: 608px;
+          position: absolute;
+          background-attachment: fixed;
+        }
+        .hellodown {
+          background-image: url(https://static.wixstatic.com/media/d5f99a33f0044179af43cb9685308ce1.jpg/v1/fill/w_1576,h_820,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d5f99a33f0044179af43cb9685308ce1.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 768px;
+          height: 608px;
+        }
+        .hello {
+          background-image: url(https://static.wixstatic.com/media/6083e67e999345c5aa1aafc7db76022b.jpg/v1/fill/w_1576,h_596,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6083e67e999345c5aa1aafc7db76022b.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 768px;
+          height: 608px;
+        }
+        .UA {
+          margin-left: 45%;
+        }
+        .svg {
+          margin-left: 49%;
+          color: white;
+          margin-top: -10%;
+          text-decoration: none;
+        }
+        #svg {
+          visibility: hidden;
+          margin-left: -60%;
+        }
+        .menu {
+          position: relative;
+          margin-left: 70%;
+          margin-top: -15%;
+          visibility: visible;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        .UA {
+          margin-left: 50%;
+        }
+        .svg {
+          margin-left: 56%;
+          margin-top: -15%;
+        }
+        .menu {
+          position: relative;
+          margin-left: 70%;
+          margin-top: -23%;
+          visibility: visible;
+        }
+        .p{
+          margin-right: 40%;
+          width: 100%;
+        }
+        .p h2{
+          margin-left: 20%;
+        }
+        .divbackground {
+          width: 500px;
+          height: 608px;
+          position: absolute;
+          background-attachment: fixed;
+        }
+        .hellodown {
+          background-image: url(https://static.wixstatic.com/media/d5f99a33f0044179af43cb9685308ce1.jpg/v1/fill/w_1576,h_820,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d5f99a33f0044179af43cb9685308ce1.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 500px;
+          height: 608px;
+        }
+        .hello {
+          background-image: url(https://static.wixstatic.com/media/6083e67e999345c5aa1aafc7db76022b.jpg/v1/fill/w_1576,h_596,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6083e67e999345c5aa1aafc7db76022b.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 500px;
+          height: 608px;
+        }
+        
+      }
+      @media screen  and (max-width: 360px) {
+        .divbackground {
+          width: 360px;
+          height: 608px;
+          position: absolute;
+          background-attachment: fixed;
+        }
+        .hellodown {
+          background-image: url(https://static.wixstatic.com/media/d5f99a33f0044179af43cb9685308ce1.jpg/v1/fill/w_1576,h_820,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d5f99a33f0044179af43cb9685308ce1.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 360px;
+          height: 608px;
+        }
+        .hello {
+          background-image: url(https://static.wixstatic.com/media/6083e67e999345c5aa1aafc7db76022b.jpg/v1/fill/w_1576,h_596,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6083e67e999345c5aa1aafc7db76022b.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          background-attachment: fixed;
+          width: 360px;
+          height: 608px;
+        }
+        .UA {
+          margin-left: 35%;
+        }
+        .svg {
+          margin-left: 45%;
+          margin-top: -20%;
+        }
+      }
+      .down {
+        position: absolute;
+        display: none;
+        text-decoration: none;
+        color: black;
+      }
+
+      .menu:hover .down {
+        display: block;
+
+        background-color: rgba(128, 128, 128, 0.374);
+      }
+      .drop {
+        cursor: pointer;
+        margin-left: 60%;
+      }
+
+      .down nav ul {
+        display: flex;
+        gap: 0px;
+        flex-direction: column !important;
+        text-decoration: none;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+      }
+
+      .down nav li {
+        margin-left: -40%;
+      }
+    </style>
   </head>
   <body>
-    <!-- <img
-    src="https://static.wixstatic.com/media/11062b_b75407a670324c39babd882c6c01d983f000.jpg/v1/fill/w_1519,h_623,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/11062b_b75407a670324c39babd882c6c01d983f000.jpg"
-    class="backimg"
-    /> --><div class="divbackground"></div>
+    <div class="divbackground"></div>
     <div class="backdiv">
-    <header class="above">
-      <svg width="110" height="110" class="UA">
-        <circle fill="black" cx="55" cy="55" r="50"></circle>
-      </svg>
-      <div class="svg">
-        <h1>UA</h1>
-      </div>
-      <ol class="lin">
-        <li>
-          <a href="  #Projects" class="hum"><h1>projects.</h1></a>
-        </li>
-        <li>
-          <a href="  #aboutartist" class="hum"><h1>about.</h1></a>
-        </li>
-        <li>
-          <a href="  #contactartist" class="hum"><h1>contact.</h1></a>
-        </li>
-      </ol>
-      <div class="p">
-        <h2>Urban Adventures - Graffiti Art</h2>
-        <a href="#Projects"><button class="divbut">&#11206;</button></a>
-      </div></div>
-      <!-- <pre class="a"></pre> -->
-    </header>
+      <header class="above">
+        <svg width="110" height="110" class="UA">
+          <circle fill="black" cx="55" cy="55" r="50"></circle>
+        </svg>
+        <div class="svg">
+          <h1>UA</h1>
+        </div>
+        <div id="svg">
+          <ol class="lin">
+            <li>
+              <a href="#Projects" class="hum"><h1>projects.</h1></a>
+            </li>
+            <li>
+              <a href="#aboutartist" class="hum"><h1>about.</h1></a>
+            </li>
+            <li>
+              <a href="#contactartist" class="hum"><h1>contact.</h1></a>
+            </li>
+          </ol>
+        </div>
+        <div class="menu">
+          <div class="drop">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/17477/17477637.png
+            "
+              alt=""
+              width="30px"
+              height="30px"
+            />
+          </div>
+          <div class="down" id="tn">
+            <nav>
+              <ul class="lin">
+                <li>
+                  <a href="#Projects" class="hum"><h1>projects.</h1></a>
+                </li>
+                <li>
+                  <a href="#aboutartist" class="hum"><h1>about.</h1></a>
+                </li>
+                <li>
+                  <a href="#contactartist" class="hum"><h1>contact.</h1></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="p">
+          <h2>Urban Adventures - Graffiti Art</h2>
+          <a href="#Projects"><button class="divbut">&#11206;</button></a>
+        </div>
+      </header>
+    </div>
     <div class="Projects" id="Projects">
       <h1 style="font-size: 63px">projects.</h1>
       <div class="Poject img">
